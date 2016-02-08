@@ -83,3 +83,4 @@ WITH_DEXPREOPT := false
 BOARD_SEPOLICY_DIRS += device/sony/kitakami-common/sepolicy
 
 include device/sony/common/CommonConfig.mk
+include device/sony/common/CommonConfigCarbon.mk
