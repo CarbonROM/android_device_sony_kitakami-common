@@ -51,7 +51,7 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 24360501248
 BOARD_CACHEIMAGE_PARTITION_SIZE := 209715200
 BOARD_FLASH_BLOCK_SIZE := 131072 # (BOARD_KERNEL_PAGESIZE * 64)
 
-TARGET_RECOVERY_FSTAB = device/sony/kitakami/rootdir/fstab.kitakami
+TARGET_RECOVERY_FSTAB = device/sony/kitakami-common/rootdir/fstab.kitakami
 
 # Wi-Fi definitions for Broadcom solution
 BOARD_WLAN_DEVICE           := bcmdhd
@@ -65,10 +65,10 @@ WIFI_DRIVER_FW_PATH_AP      := "/vendor/firmware/fw_bcmdhd_apsta.bin"
 WIFI_DRIVER_FW_PATH_STA     := "/vendor/firmware/fw_bcmdhd.bin"
 
 # BT definitions for Broadcom solution
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/sony/kitakami/bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/sony/kitakami-common/bluetooth
 BOARD_HAVE_BLUETOOTH := true
 BOARD_HAVE_BLUETOOTH_BCM := true
-BOARD_BLUEDROID_VENDOR_CONF := device/sony/kitakami/bluetooth/vnd_generic.txt
+BOARD_BLUEDROID_VENDOR_CONF := device/sony/kitakami-common/bluetooth/vnd_generic.txt
 
 # RIL
 TARGET_PER_MGR_ENABLED := true
@@ -80,6 +80,6 @@ NFC_NXP_CHIP_TYPE := PN547C2
 WITH_DEXPREOPT := false
 
 # SELinux
-BOARD_SEPOLICY_DIRS += device/sony/kitakami/sepolicy
+BOARD_SEPOLICY_DIRS += device/sony/kitakami-common/sepolicy
 
 include device/sony/common/CommonConfig.mk
