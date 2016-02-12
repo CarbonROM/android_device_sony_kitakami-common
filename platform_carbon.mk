@@ -13,11 +13,3 @@
 # limitations under the License.
 
 SONY_ROOT = device/sony/kitakami-common/rootdir
-
-# SELinux
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.build.selinux=1
-
-# Properties
-PRODUCT_PROPERTY_OVERRIDES += \
-    telephony.lteOnGSMDevice=1
