@@ -55,6 +55,7 @@
 /dev/msm_ac3              0660   system     audio
 /dev/msm_acdb             0660   system     audio
 /dev/msm_audio_cal        0660   system     audio
+/dev/msm_hweffects        0660   system     audio
 /dev/msm_amrnb            0660   system     audio
 /dev/msm_amrnb_in         0640   system     audio
 /dev/msm_amrwb            0660   system     audio
@@ -134,6 +135,7 @@
 # Thermanager
 /sys/module/msm_performance/parameters/cpu_max_freq   0664 system system
 /sys/module/msm_performance/parameters/cpu_min_freq   0664 system system
+/sys/module/msm_performance/parameters/max_cpus       0664 system system
 
 /sys/devices/virtual/graphics/fb1/avi_itc             0664 system graphics
 /sys/devices/virtual/graphics/fb1/avi_cn0_1           0664 system graphics
