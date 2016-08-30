@@ -13,4 +13,4 @@
 # limitations under the License.
 
 # Include path
-TARGET_SPECIFIC_HEADER_PATH += device/sony/kitakami-common/include
+# TARGET_SPECIFIC_HEADER_PATH += device/sony/kitakami-common/include
