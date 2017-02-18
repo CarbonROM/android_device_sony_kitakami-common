@@ -13,9 +13,9 @@
   },
   {
     "remote": "gh",
-    "repository": "LineageOS/android_hardware_sony_timekeep",
+    "repository": "sonyxperiadev/timekeep",
     "target_path": "hardware/sony/timekeep",
-    "revision": "cm-14.1"
+    "revision": "master"
   },
   {
     "remote": "gh",
